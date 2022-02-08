@@ -5,16 +5,7 @@
 // who have scrored equal to or more than those marks.
 
 
-var obj = {
-              {
-                 "name": "Name 1",
-                 "marks": 15
-              },
-
-              {
-                "name": "Name 2",
-                "marks": 17
-              },
+var obj = [ { "name": "Name 1",  "marks": 15}, {  "name": "Name 2",  "marks": 17  },
               
               { 
                 "name": "Name 3",
@@ -35,6 +26,38 @@ var obj = {
   
                 "name": "Name 6",
                 "marks": 27
-              },
+              }
   
-          };
+            ]
+
+
+
+
+
+const getuser = (mark)=>{
+   
+  let ans =[];
+
+  for(var i=0;i<obj.length;i++){
+    if(obj[i].marks>=mark){
+      ans.push(obj[i]);
+    }
+  }
+
+  return ans;
+
+}
+
+
+
+
+  var user_input =parseInt(prompt("how much wants your marks"));
+
+  var res = getuser(user_input);
+  console.log(res);
+
+ 
+ 
+
+
+    
