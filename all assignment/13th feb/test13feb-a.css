@@ -1,0 +1,32 @@
+body{
+    background-color: darkgray;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+section{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+img{
+    margin-top: 10px;
+}
+
+footer{
+    color: white;
+
+    margin-bottom: 50px;
+}
+
+#footer_header{
+    text-align: center;
+}
+
+#footer2{
+    text-align: center;
+}
