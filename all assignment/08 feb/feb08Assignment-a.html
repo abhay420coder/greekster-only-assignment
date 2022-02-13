@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greekster Form</title>
+</head>
+<body>
+<!--     
+    Assignment 1. -> Make admission form same as Geekster apply now form. 
+                        (https://geekster.in/apply-now)
+
+    Assignment 2. -> TODO App (structure) -> An html page which should contain an input text tag, 
+                                            a button and some ul/li.
+
+     -->
+
+
+
+    <form action="feb08Assignment-b.html">
+
+        <h2 style="text-align: center;"> APPLICATION FORM </h2> 
+
+        <table style="width: 100%;">
+            <tr>
+                <td>
+                    <label for="full-name"> Full Name &ast; </label> <br>
+                    <input type="text" name="full-name" id="full-name" style="width: 75%;">
+                </td>
+
+                <td>
+                    <label for="email-id"> Email &ast; </label> <br>
+                    <input type="email" name="email-id" id="email-id " style="width: 75%;"> 
+            </tr> 
+
+            <tr> 
+                <td>
+                    <br><label for="course">Select Any Course &ast;</label> <br>
+                <select name="course" id="course" style="width: 175%;">
+                    <option value="no-course" disabled selected>Select any one course</option>
+                    <option value="FULL-STACK-Web">Full Stack Web Development</option>
+                    <option value="Advance-Web">Advance Web Development</option>
+                </select>
+            </td>
+            </tr>
+
+
+
+            <tr> 
+                <td>
+                    <label for="mobile"> Phone &ast; </label> <br>
+                    <input type="number" name="mobile" id="mobile" minlength="10" maxlength="10" min="6000000000" max="9999999999" placeholder="Enter Mobile Number" style="width: 75%;">
+                </td>
+                <td>
+                    <label for="degree">Highest Degree &ast; </label> <br>
+                <select name="degree" id="degree"  style="width: 75%;">
+                    <option value="no-degree" disabled selected>Select any one degree</option>
+                    <option value="B.E/B.Tech-CS/IT">B.E or B.Tech CS/IT </option>
+                    <option value="B.E/B.Tech-Other">B.E or B.Tech Other</option>
+                    <option value="M.E/M.Tech-CS/IT ">M.E or M.Tech CS/IT </option>
+                    <option value="M.E/M.Tech-Other">M.E or M.Tech Other</option>
+                    <option value="BCA">BCA </option>
+                    <option value="MCA">MCA </option>
+                    <option value="Other">Other </option>
+                </select>
+            </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="year">Year Of Completion &ast; </label> <br>
+                <select name="year_of_completion" id="year"  style="width: 75%;">
+                    <option value="no-year" disabled selected>Select any one year</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                </select>
+            </td>
+
+            <td>
+                <label for="skills">Programming Skills  &ast; </label> <br>
+            <select name="skills" id="skills"  style="width: 75%;">
+                <option value="no-skill" disabled selected>Select any one skill</option>
+                <option value="No">No Coding Skills</option>
+                <option value="Basic">Basic Coding Skills</option>
+                <option value="Intermediate">Intermediate Coding Skills</option>
+                <option value="Good">Good Coding Skills</option>
+
+            </select>
+        </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="checkbox" name="condition" id="condition" required > By signing up, you agree to the Terms and Conditions of Geekster (QuantumBit technologies Pvt. Ltd)*.
+                </td>
+            </tr>
+
+
+            
+        </table>
+
+        <input type="submit" value="submit">
+
+   
+
+
+
+
+    </form>
+</body>
+</html>

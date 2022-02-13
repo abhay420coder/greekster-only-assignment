@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TAGS LIST</title>
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center; color: red; font-size:60px; letter-spacing: 8mm;line-height: 100%;text-decoration: solid;text-indent: 12%;text-transform: lowercase;"> AUDIO / VEDIO </h1>
+
+        <table style="border: 8px , solid; text-align: center;" border="10" >
+            <thead>
+                <tr style="font-size: 30px;">
+                    <th><b>TAG</b></th>
+                    <th><b>TAG-DEFINITION</b></th>
+                    <th><b>ATTRIBUTES</b></th>
+                    <!-- <th><b>ATTRIBUTES-DEFINITION</b></th>
+                    <th><b>ATTRIBUTES-TYPE</b></th>
+                    <th><b>ATTRIBUTES-TYPE-DEFINITION</b></th> -->
+                </tr>
+            </thead>
+
+            <tbody style="font-size: 20px;">
+                <tr>
+                    <td>
+                        &lt;audio&gt;
+                    </td>
+
+                    <td>
+                        The &lt;audio&gt; HTML element is used to <br> embed sound content in documents <br>
+                        <br>It may contain one or more audio sources, <br> represented using the src attribute or the &lt;source> element: 
+                        <br> the browser will choose the most suitable one. <br> <br> 
+                        It can also be the destination for streamed media, using a MediaStream.
+
+                        <br><br><br><b>example :-</b><br> <br>
+
+                        &lt;audio <b> controls</b> <b>src</b>="file.mp3" <b>type</b>="audio/mpeg">
+                           Your browser does not support the audio element.
+                           &lt;/audio&gt;
+                    </td>
+
+                    <td>
+                        <table border="1" style="width: 100%;">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        src &emsp;
+                                    </td>
+
+                                    <td>
+                                        <span style="font-weight:bold">definition of src:-</span><br>
+                                        we include a path to the media we want to embed inside the src attribute <br>
+
+                                        <br> This is optional; you may instead use the <b> &lt;source&gt; </b> <br>
+                                        element within the audio block to specify the audio to embed. <br><br>
+
+                                        <span style="font-weight:bold">example of src:-</span><br>
+                                        <pre>&lt;audio <b> controls </b> &gt;
+                                            &lt;source src="file.mp3" type="audio/mpeg">
+                                           Your browser does not support the audio element.
+                                           &lt;/audio>  
+                                             
+                                                OR
+
+                                                &lt;audio <b> controls</b> <b>src</b>="file.mp3" <b>type</b>="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                                &lt;/audio&gt;
+                                        </pre>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

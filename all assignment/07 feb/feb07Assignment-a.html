@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 
+    Assignment 1: 
+    -> Create a form (College admission form). 
+    -> The form should be functional, that means submit and reset should work 
+    -> It should also have proper validation
+     -->
+
+     <form action="#">
+
+
+        <table border="2" style="width: 100%; text-align: center;">
+
+            <tr>
+
+
+                <td>
+
+         <h2 style="color: brown; border: 2px; ">  YOUR NAME  </h2> <br> 
+
+         <label for="first-name"> FIRST NAME :- </label>
+
+         <input type="text" 
+                name="first-name" 
+                id="first-name" 
+                placeholder="YOUR FIRST NAME"
+                required> 
+                
+                <br> <br>
+
+
+         <label for="last-name"> LAST NAME :- </label>
+
+         <input type="text" 
+                name="last-name" 
+                id="last-name" 
+                placeholder="YOUR LAST NAME"
+                required> 
+                
+                <br> <br>
+
+            </td>
+
+
+
+            <td>
+
+                <h2 style="color: RED; border: 2px; ">  YOUR FATHER NAME  </h2> <br> 
+
+                <label for="first-name"> FIRST NAME :- </label>
+       
+                <input type="text" 
+                       name="first-name" 
+                       id="first-name" 
+                       placeholder="YOUR FATHER'S FIRST NAME"
+                       required> 
+                       
+                       <br> <br>
+       
+       
+                <label for="last-name"> LAST NAME :- </label>
+       
+                <input type="text" 
+                       name="last-name" 
+                       id="last-name" 
+                       placeholder="YOUR FATHER'S LAST NAME"
+                       required> 
+                       
+                       <br> <br>
+
+                    </td>
+
+
+
+
+
+                    <td>
+
+
+                        <h2 style="color: yellowgreen; border: 2px; ">  YOUR MOTHER NAME  </h2> <br> 
+
+         <label for="first-name"> FIRST NAME :- </label>
+
+         <input type="text" 
+                name="first-name" 
+                id="first-name" 
+                placeholder="YOUR MOTHER FIRST NAME"
+                required> 
+                
+                <br> <br>
+
+
+         <label for="last-name"> LAST NAME :- </label>
+
+         <input type="text" 
+                name="last-name" 
+                id="last-name" 
+                placeholder="YOUR MOTHER LAST NAME"
+                required> 
+                
+                <br> <br>
+
+            </td>
+
+
+            </tr>
+
+
+            </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <h2 style="color: chocolate;"> YOUR EDUCATION DETAIL </h2>
+
+
+                <table border="2" style="width: 100%; text-align: center;">
+
+                    <tr>
+                        <td>
+        
+                 <h2 style="color: brown; border: 2px; ">   SSLC DETAILS  </h2> <br> 
+        
+                 <label for="sslc-roll-no"> SSLC - ROLL NO. :- </label>
+        
+                 <input type="text" 
+                        name="sslc-roll-no" 
+                        id="sslc-roll-no" 
+                        placeholder="YOUR ROLL NO. IN MATRICULATION"
+                        required> 
+                        
+                        <br> <br>
+        
+        
+                 <label for="sslc-percentage"> PERCENTAGE :- </label>
+        
+                 <input type="number" 
+                        name="sslc-percentagee" 
+                        id="sslc-percentage" 
+                        placeholder="YOUR PERCENTAGE IN MATRICULATION"
+                        required> 
+                        
+                        <br> <br>
+        
+                    </td>
+        
+        
+        
+        
+        
+                    <td>
+        
+                        <h2 style="color: brown; border: 2px; ">   PUC DETAILS  </h2> <br> 
+        
+                        <label for="sslc-roll-no"> PUC - ROLL NO. :- </label>
+               
+                        <input type="text" 
+                               name="puc-roll-no" 
+                               id="puc-roll-no" 
+                               placeholder="YOUR ROLL NO. IN INTERMEDIATE"
+                               required> 
+                               
+                               <br> <br>
+               
+               
+                        <label for="puc-percentage"> PERCENTAGE :- </label>
+               
+                        <input type="number" 
+                               name="puc-percentagee" 
+                               id="puc-percentage" 
+                               placeholder="YOUR PERCENTAGE IN INTERMEDIATE"
+                               required> 
+                               
+                               <br> <br>
+        
+                            </td>
+        
+        
+        
+        
+        
+                            <td>
+        
+        
+ 
+                                <h2 style="color: brown; border: 2px; ">   BACHELOR DETAILS  </h2> <br> 
+        
+                                <label for="bachelor-roll-no"> BACHELOR - ROLL NO. :- </label>
+                       
+                                <input type="text" 
+                                       name="bachelor-roll-no" 
+                                       id="bachelor-roll-no" 
+                                       placeholder="YOUR ROLL NO. IN GRADUATION"
+                                       required > 
+                                       
+                                       <br> <br>
+                       
+                       
+                                <label for="bachelor-percentage"> PERCENTAGE :- </label>
+                       
+                                <input type="number" 
+                                       name="bachelor-percentagee" 
+                                       id="bachelor-percentage" 
+                                       placeholder="YOUR PERCENTAGE IN GRADUATION" 
+                                       required> 
+                                       
+                                       <br> <br>
+        
+                    </td>
+        
+        
+                    </tr>
+        
+        
+                    </table>
+
+                    <h2>YOUR OTHER DETAILS</h2>
+
+                    <table style="width: 100%;">
+                        <tr>
+
+                            <td>
+                    <label for="mobile"> YOUR MOBILE NO. :-   </label>
+                    <input type="tel" name="mobile" id="mobile" maxlength="10" minlength="10" placeholder="MOBILE - NUMBER"  required>  <br> <br>
+                </td>
+
+                    <td>
+                    <label for="email"> YOUR EMAIL ID :- </label>
+                    <input type="email" name="email" id="email" placeholder=" EMAIL - ID " required> <br> <br>
+                </td>
+
+                <td>
+                    <label for="D-O-B"> DATE OF BIRTH :- </label>
+                    <input type="date" name="D.O.B" id="D-O-B"  min="1988-01-01"  max="2002-01-01"  placeholder="DATE OF BIRTH"  required>   <BR> <BR>
+                    </td>
+                    </tr>
+
+                    </table>
+
+
+                   <label for="stream"> CHOOSE YOUR STREAM : - </label>
+                   <select name="stream" id="stream" required >
+                                                                <option value="CSE">COMPUTER SCIENCE ENGG.</option>
+                                                                <option value="EEE">ELECTRICAL ENGG</option>
+                                                                <option value="ECE"> ELECTRONICS ENGG. </option>
+                                                                <option value="ME"> MECHANICAL ENGG. </option>
+                                                                <option value="ISE"> INFORMATION SCIENCE ENGG. </option>
+                                                                <option value="AIE"> ARTIFICIAL INTELLIGENCE ENGG. </option>
+
+
+                   </select> <br> <br><br>
+
+
+                   <label for="message"> TYPE YOUR MESSAGE </label> <br>
+                   <textarea name="message" id="message"  placeholder="YOUR MESSAGE WILL BE TYPE HERE"></textarea> <br> <br>
+
+                   <label for="resume"> UPLOAD YOUR RESUME HERE</label> <br>
+                   <input type="file" name="resume" id="resume" > <br><br><br>
+
+                   <input type="reset" value="all clear"> <br><br>
+                   <input type="submit" value="submit here">
+
+
+
+     </form>
+
+</body>
+</html>
