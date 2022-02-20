@@ -82,3 +82,27 @@ li:nth-child(3n+1){
 li:nth-child(3n+2){
     background-color: lightgreen
 }
+
+
+.strike{
+    text-decoration: line-through;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+tr:nth-child(3n){
+    background-color: aqua;
+}
+
+tr:nth-child(3n+1){
+    background-color: lightcyan
+}
+
+tr:nth-child(3n+2){
+    background-color: lightpink;
+}
