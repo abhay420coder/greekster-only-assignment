@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+
+    <!-- <p>
+        <h1>welcome dear</h1>
+        <?php
+                echo date("h:i:s:A");
+        ?>
+    </p> -->
+
+    <script>
+        var var1 = setInterval(innerTimer , 1000) ;
+        var ids = document.getElementById("demo") ;
+        var size = 5 ; 
+
+        function innerTimer() {
+            ids.innerHTML = "VTU BELAGAVI"  ;
+            ids.setAttribute = ("style = " , " font-size:" + size + "px ; color :blue") ;
+            size = size + 5 ;
+
+            if (size>=50 )
+            {
+                clearInterval() ;
+            }
+        }
+    </script>
+
+
+
+
+
+
+ 
+
+
+
+
+
+</body>
+</html>
