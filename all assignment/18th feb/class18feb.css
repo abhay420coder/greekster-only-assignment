@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    cursor: crosshair;
+}
+
+
+h2:hover{
+    color: red;
+    font-size: 50%;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.greekster_button{
+    text-decoration: none;
+    background-color: aquamarine;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.greekster_button:hover  {
+                               background-color: red;
+                         }
+
+.greekster_button:active{
+    background-color: blue;
+}
+
+            input:focus{
+                            background-color: rgb(148, 191, 204);
+                            border: 20px solid red;
+                        }
+
+button{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+
+    /* padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 80px; */
+
+   /* padding: 10px 50px 20px 80px; */  /* top  right  bottom left  */    /* top=10px  right=50px  bottom=20px   left=80px  */
+
+   /* padding: 10px 5px 20px; */   /* top horizontal bottom   */  /* top=10px  horizontal=5px   bottom=20px  */   /* horizontal ---> left and right           left=right=5px*/
+
+   /* padding: 20px 10px;  */      /*  vertical  horizontal   */     /* vertical ---> top and down      top=down=20px */   /* horizontal ---> left and right        left=right=10px */    
+
+  /* padding: 10px; */    /* all border */  /* top=right=bottom=left=10px */
+
+    
+}
+
+
+
+/* li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: blue;
+}
+
+li:nth-child(3){
+    color: brown;
+}
+
+li:nth-child(4){
+    color: coral;
+} */
+
+
+
+
+
+/* we passing loop in nth child */
+
+/* li:nth-child(n) {                    // this is for all li element 
+    color : red
+} */
+
+
+/* li:nth-child(2n+1) {       // this is for odd child
+    color: red;
+} */
+
+
+/* li:nth-child(odd) {       // this is for odd child
+    color: red;
+} */
+
+
+
+/* li:nth-child(2n) {          // this is for even child
+    color: red;
+} */
+
+/* li:nth-child(even) {          // this is for even child
+    color: red;
+} */
+
+.t3rd-ul:first-child{
+    color : red
+}

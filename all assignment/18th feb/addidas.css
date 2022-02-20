@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    padding: 3px 150px;
+    text-align: center;
+
+}
+
+.text-white{
+    color: white;
+}
+
+.float-left{
+    float: left;
+}
+
+/* .float-center{
+   padding: 200px;
+} */
+
+.float-right{
+ float : right ;
+}
+
+.logo{
+    width: 70px;
+    padding: 15px 30px;
+    
+}
+
+.nav-links-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links{
+    padding: 5px  10px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav-center{
+    text-align: center;
+    
+    
+}
+
+.dynamic-width {
+    width: calc(100% - 130px);
+}
+
+.search-bar {
+    display: inline-block;
+    border: 2px solid black; 
+}
+
+.simple-input{
+    border: none;
+}
